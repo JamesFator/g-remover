@@ -1,0 +1,17 @@
+{
+  "name": "G Remover",
+  "version": "1.0",
+  "description": "Removes the 'g' from your Chrome search outside of work!",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.google.com/search*"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "manifest_version": 2
+}
